@@ -1,0 +1,18 @@
+_id: env_191ea7a8124c4422b5a0c745c173ee72
+type: Environment
+parentId: env_364978c5ef9ac88af389f0082e53d6f44fa29061
+modified: 1657808303357
+created: 1657808272333
+name: https://localhost/
+data:
+  url: http://localhost:7070/api
+  accessToken: BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbm9jMTcuc2l0YW1hLmNvLmlkXC9hcGlcL3YxXC9jbXMtbG9naW4iLCJpYXQiOjE2MTk1Nzk0NzYsImV4cCI6MTYxOTY2NTg3NiwibmJmIjoxNjE5NTc5NDc2LCJqdGkiOiJiSkExbEsyZmdmeHU5MElPIiwic3ViIjoiNjY3NDU4OGYtNzhmYi00NDdjLWJkNWUtNTdkODlmMGE4ZDMwIiwicHJ2IjoiYzc3NTk0YmNmMGE2ZjQyNWYzYjljZTRmMjc5YmQ1N2U5YWZhNjk1YSJ9.N2zL7ViXKABRHd7snusJAO9qpIlVJUl3mqlOHzWGffI
+  id: 6674588f-78fb-447c-bd5e-57d89f0a8d30
+dataPropertyOrder:
+  "&":
+    - url
+    - accessToken
+    - id
+color: null
+isPrivate: false
+metaSortKey: 1657808272333
