@@ -1,0 +1,33 @@
+_id: req_5e5a4f53eb4a4313b92ea8056859456f
+type: Request
+parentId: fld_427778b1884b4608afd023e0943b1dab
+modified: 1660726310609
+created: 1660719651924
+url: "{{ _['url-8888'] }}/products/4028e45e82aafbad0182aafd20410002"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sku": "B005",
+    	"productName": "HP Samsung S-22",
+    	"price": 13000000.00,
+    	"productCategoryId":"4028e45e82aafbad0182aafbcd200000",
+    	"isActive": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e3a7fe0fe55436497d015f9f2172468
+authentication: {}
+metaSortKey: -1659892488347.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

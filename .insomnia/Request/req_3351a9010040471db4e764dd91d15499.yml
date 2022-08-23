@@ -1,0 +1,34 @@
+_id: req_3351a9010040471db4e764dd91d15499
+type: Request
+parentId: fld_d28593c8ebe34a91a38fac7e0b70afe9
+modified: 1661270306722
+created: 1660836515092
+url: https://aps.neyama.com/deskcoll/mlist_conversation_chat/
+name: Convertation
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters:
+  - id: pair_57e6e6bbe094410096a47a794b8578d4
+    name: sender_id
+    value: "69"
+    description: ""
+  - id: pair_b20659db430d466d970c60e447b3b508
+    name: receiver
+    value: "60"
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_69efb5f233c847dcbf6619069ebbe051
+authentication: {}
+metaSortKey: -1661053403773.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

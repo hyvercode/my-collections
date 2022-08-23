@@ -1,0 +1,26 @@
+_id: req_3787c377dbe0448ca902ceb8c77ae2b5
+type: Request
+parentId: fld_427778b1884b4608afd023e0943b1dab
+modified: 1660667856669
+created: 1660667847281
+url: "{{ _['url-8888'] }}/products"
+name: All
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e3a7fe0fe55436497d015f9f2172468
+authentication: {}
+metaSortKey: -1660663744686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

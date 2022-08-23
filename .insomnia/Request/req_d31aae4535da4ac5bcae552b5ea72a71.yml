@@ -1,0 +1,31 @@
+_id: req_d31aae4535da4ac5bcae552b5ea72a71
+type: Request
+parentId: fld_0412ac5b0e2d48e59d7909c131e798c2
+modified: 1660725703185
+created: 1660725400084
+url: "{{ _['url-8888'] }}/product-categories"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productCategoryName":"Food",
+    	"description":"Food Category",
+    	"isActive":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e3a7fe0fe55436497d015f9f2172468
+authentication: {}
+metaSortKey: -1660663744636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

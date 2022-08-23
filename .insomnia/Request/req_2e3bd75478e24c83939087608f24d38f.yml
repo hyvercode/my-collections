@@ -1,0 +1,38 @@
+_id: req_2e3bd75478e24c83939087608f24d38f
+type: Request
+parentId: fld_d28593c8ebe34a91a38fac7e0b70afe9
+modified: 1661270310702
+created: 1661048644817
+url: https://aps.neyama.com/deskcoll/minsert_send_chat/
+name: Send Chat
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters:
+  - id: pair_b20659db430d466d970c60e447b3b508
+    name: recivers
+    value: "69"
+    description: ""
+  - id: pair_9b8d95b2323943e28ef5d9fd48894303
+    name: senders
+    value: "60"
+    description: ""
+  - id: pair_3c8730eaf6a2414eb62ad585d64177f1
+    name: messages
+    value: Tes
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_69efb5f233c847dcbf6619069ebbe051
+authentication: {}
+metaSortKey: -1661053403673.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

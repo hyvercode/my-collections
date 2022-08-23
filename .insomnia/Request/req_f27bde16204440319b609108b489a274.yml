@@ -1,0 +1,50 @@
+_id: req_f27bde16204440319b609108b489a274
+type: Request
+parentId: fld_0412ac5b0e2d48e59d7909c131e798c2
+modified: 1660725400123
+created: 1660725400123
+url: "{{ _['url-8888'] }}/products/paginate"
+name: Paginate
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_2170a0bce1a94c48b5c02627466662b2
+    name: pageSize
+    value: "10"
+    description: ""
+  - id: pair_4ad843c366a6453da6ad7651b7bdb070
+    name: pageNumber
+    value: "1"
+    description: ""
+  - id: pair_d3405b8d1c9240e1ab76a6117ae57896
+    name: sortBy
+    value: createdTime
+    description: ""
+  - id: pair_e4184460eb954dbeb7ce5ff81300fb89
+    name: sortType
+    value: DESC
+    description: ""
+  - id: pair_e826e78e960b446e9599cf1cf2eb116a
+    name: searchBy
+    value: sku
+    description: ""
+  - id: pair_882054cf6eee475c8ccbd9d3f6394631
+    name: searchParam
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e3a7fe0fe55436497d015f9f2172468
+authentication: {}
+metaSortKey: -1660663744673.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

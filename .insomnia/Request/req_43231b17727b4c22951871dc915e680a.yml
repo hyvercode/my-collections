@@ -1,0 +1,26 @@
+_id: req_43231b17727b4c22951871dc915e680a
+type: Request
+parentId: fld_d28593c8ebe34a91a38fac7e0b70afe9
+modified: 1661270305558
+created: 1661048613972
+url: https://aps.neyama.com/deskcoll/mlist_agent/
+name: Agent
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_69efb5f233c847dcbf6619069ebbe051
+authentication: {}
+metaSortKey: -1661053403823.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
