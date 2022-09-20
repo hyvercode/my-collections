@@ -1,0 +1,26 @@
+_id: req_7d997c77d1924cd4b9d24199b78d6dc5
+type: Request
+parentId: fld_63ee7140f0c24c32918dc03902aaa357
+modified: 1661270552514
+created: 1661270552514
+url: "{{url}}/v1/occupation/list?pageSize=10&pageNumber=1&sortBy=occupationName\
+  &sortType=asc&searchBy"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270552514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

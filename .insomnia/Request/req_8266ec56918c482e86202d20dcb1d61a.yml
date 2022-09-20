@@ -1,0 +1,24 @@
+_id: req_8266ec56918c482e86202d20dcb1d61a
+type: Request
+parentId: fld_4675b26d727d43e5ad2355477c746faf
+modified: 1661270553452
+created: 1661270553452
+url: "{{url}}/v1/bank/list?pageSize=10&pageNumber=1&sortBy=bankName&sortType=as\
+  c&searchBy="
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553452
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

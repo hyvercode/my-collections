@@ -1,0 +1,26 @@
+_id: req_f3e867993c6b480e88e7ee978d7b9b5e
+type: Request
+parentId: fld_70c7d727f3a745c2adb0d47a691b74d6
+modified: 1661270552458
+created: 1661270552458
+url: "{{url}}/v1/employee/list?pageSize=10&pageNumber=1&sortBy=firstName&sortTy\
+  pe=asc&searchBy"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270552458
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

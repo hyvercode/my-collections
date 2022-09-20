@@ -1,0 +1,52 @@
+_id: req_974e49b56bdf4599aaa9029a3637ab19
+type: Request
+parentId: fld_6261d2fa71d7435fbbe47162073af3b7
+modified: 1661270552450
+created: 1661270552450
+url: "{{url}}/v1/customer/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "active": "Y",
+      "address": "Jln Daan Mogot Km 21 Poris Gaga Baru Batu Ceper Kota Tanggerang - Banten",
+      "birthOfDate": "1990-07-10",
+      "cityId": "1",
+      "countryId": "IDN",
+      "districtId": "1",
+      "email": "alfaz@gmail.com",
+      "firstName": "Cigist",
+      "idCardNumber": "20051900",
+      "idCardType": "1",
+      "image": "",
+      "lastName": "Technology",
+      "nickName": "lafaz",
+      "outletId": "055da87e-64d5-4253-921c-eb0e8159d3c5",
+      "phoneNumber": "087885876037",
+      "placeOfBirth": "Bandung Barat",
+      "postcode": 12255,
+      "provinceId": "01",
+      "sex": "M",
+      "subDistrictId": "01",
+      "villageId": "01"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

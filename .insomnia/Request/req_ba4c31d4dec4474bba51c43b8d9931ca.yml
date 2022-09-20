@@ -1,0 +1,53 @@
+_id: req_ba4c31d4dec4474bba51c43b8d9931ca
+type: Request
+parentId: fld_b12e5c7e6987497e936d6cc470eed965
+modified: 1661270552490
+created: 1661270552490
+url: "{{url}}/v1/supplier/update?supplierId=21d8e437-debb-4685-9ead-7a86a32fc51f"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "address": "Jln Daan Mogot KM 21 Poris Gaga Baru Batuceper tangerang",
+      "cityId": "0",
+      "contactNumber": "Bpk Aceung",
+      "contactPerson": "087885876066",
+      "countryId": "IDN",
+      "currencyId": "IDR",
+      "districtId": "0",
+      "email": "alfazis.tech@gmail.com",
+      "faxNumber": "0",
+      "image": "0",
+      "letterOfBusinessPermit": "1234567890",
+      "supplierName": "PT Dankuw",
+      "phoneNumber": "0210987654",
+      "phoneNumber2": "0213456789",
+      "postcode": 15211,
+      "provinceId": "0",
+      "subDistrictId": "0",
+      "taxRegistrationNumber": "0987654321",
+      "villageId": "0",
+      "website": "www.dankuw.id",
+      "outletId": "055da87e-64d5-4253-921c-eb0e8159d3c5"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

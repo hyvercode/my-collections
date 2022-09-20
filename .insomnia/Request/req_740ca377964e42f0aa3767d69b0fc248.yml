@@ -1,0 +1,35 @@
+_id: req_740ca377964e42f0aa3767d69b0fc248
+type: Request
+parentId: fld_2991d77d74534c309ed8f6e9b9767aad
+modified: 1661270553423
+created: 1661270553423
+url: "{{url}}/v1/city/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "uomName": "Pack",
+      "outletId": "{{outletId}}",
+      "remark": "Packing"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270553423
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

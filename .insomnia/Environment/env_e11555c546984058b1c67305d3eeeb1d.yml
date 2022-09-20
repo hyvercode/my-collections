@@ -1,0 +1,16 @@
+_id: env_e11555c546984058b1c67305d3eeeb1d
+type: Environment
+parentId: env_364978c5ef9ac88af389f0082e53d6f44fa29061
+modified: 1661270571019
+created: 1661270571019
+name: Localhost:8080
+data:
+  url: http://localhost:8080/api
+  accessToken: ""
+  roles: ""
+  outletId: ""
+  employeeId: ""
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1661270571020

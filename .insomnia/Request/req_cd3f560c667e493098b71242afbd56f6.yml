@@ -1,0 +1,26 @@
+_id: req_cd3f560c667e493098b71242afbd56f6
+type: Request
+parentId: fld_6261d2fa71d7435fbbe47162073af3b7
+modified: 1661270552447
+created: 1661270552447
+url: "{{url}}/v1/customer/list?pageSize=10&pageNumber=1&sortBy=customerId&sortT\
+  ype=asc&searchBy="
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270552447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

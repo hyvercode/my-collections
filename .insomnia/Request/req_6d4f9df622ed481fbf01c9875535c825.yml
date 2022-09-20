@@ -1,0 +1,52 @@
+_id: req_6d4f9df622ed481fbf01c9875535c825
+type: Request
+parentId: fld_3bedb4b18d5f4b5f9b54007b22f0fc45
+modified: 1661270552437
+created: 1661270552437
+url: "{{url}}/v1/product/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "barcode": "00000000000000000000",
+      "basePrice": 0,
+      "brandId": "000",
+      "categoryId": "000",
+      "discountPrice": 0,
+      "image": "doc",
+      "initialStock": 0,
+      "isScale": true,
+      "outletId": "055da87e-64d5-4253-921c-eb0e8159d3c5",
+      "plu": "00000000",
+      "productName": "microservice",
+      "remark": "testing",
+      "retailPrice": 0,
+      "size": 1,
+      "sku": "00000000",
+      "supplierId": "0000000",
+      "tag": "red",
+      "typeId": "001",
+      "uomId": "001",
+      "weight": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552437
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

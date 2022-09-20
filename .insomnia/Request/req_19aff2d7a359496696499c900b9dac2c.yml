@@ -1,0 +1,27 @@
+_id: req_19aff2d7a359496696499c900b9dac2c
+type: Request
+parentId: fld_c906305239d54469aa1436c505b2914a
+modified: 1661270553220
+created: 1661270553220
+url: "{{url}}/v1/outlet/detail?outletId=055da87e-64d5-4253-921c-eb0e8159d3c5"
+name: Detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270553220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

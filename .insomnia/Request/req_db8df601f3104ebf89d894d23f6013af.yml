@@ -1,0 +1,26 @@
+_id: req_db8df601f3104ebf89d894d23f6013af
+type: Request
+parentId: fld_0658ce62b7994791b265b1d3a9ad2caf
+modified: 1661270553123
+created: 1661270553123
+url: "{{url}}/v1/branch/list?pageSize=10&pageNumber=1&sortBy=branchName&sortTyp\
+  e=asc&searchBy"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Outlet-ID
+    value: 055da87e-64d5-4253-921c-eb0e8159d3c5
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553123
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

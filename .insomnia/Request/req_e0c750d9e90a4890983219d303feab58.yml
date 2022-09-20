@@ -1,0 +1,35 @@
+_id: req_e0c750d9e90a4890983219d303feab58
+type: Request
+parentId: fld_63ee7140f0c24c32918dc03902aaa357
+modified: 1661270552546
+created: 1661270552546
+url: "{{url}}/v1/occupation/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "occupationName": "Staff",
+      "outletId": "{{outletId}}",
+      "remark": "Staff"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

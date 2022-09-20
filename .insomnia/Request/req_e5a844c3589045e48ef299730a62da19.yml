@@ -1,0 +1,30 @@
+_id: req_e5a844c3589045e48ef299730a62da19
+type: Request
+parentId: fld_a25cb8c642f64b8198e3a7926aee6e1b
+modified: 1661270553441
+created: 1661270553441
+url: "{{url}}/v1/country/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "countryCode": "IDN",
+      "countryName": "Indonesia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

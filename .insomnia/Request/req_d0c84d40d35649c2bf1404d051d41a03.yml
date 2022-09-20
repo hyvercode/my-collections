@@ -1,0 +1,35 @@
+_id: req_d0c84d40d35649c2bf1404d051d41a03
+type: Request
+parentId: fld_616fcc4940d54b1d8172bf0eb5f0bc70
+modified: 1661270552719
+created: 1661270552719
+url: "{{url}}/v1/level/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "levelName": "Admin",
+      "outletId": "{{outletId}}",
+      "remark": "Administrator"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

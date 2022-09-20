@@ -1,0 +1,40 @@
+_id: req_477e154f67544deeb2eb5374a95b6b43
+type: Request
+parentId: fld_81d07975d0fb4ec5a3863b5c1c37b2ec
+modified: 1661959446511
+created: 1661270553471
+url: "{{url}}/v1/auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": true,
+      "avatar": "",
+      "email": "admin@admin.com",
+      "employeeId": "340932583259832958",
+      "name": "Admin RMS",
+      "outletId": "340932583259832958",
+      "password": "Admin@123!",
+      "phoneNumber": "6287885876037",
+      "username": "admin@admin.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_83447b4a662549eeb948da9c9e576f9e
+  - name: Accept
+    value: application/json
+    id: pair_683457592bde439e8d0906f3fb59da44
+authentication: {}
+metaSortKey: -1661270553471
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

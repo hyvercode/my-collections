@@ -1,0 +1,26 @@
+_id: req_aa87ecf23536408fb7e7acfa19d03ade
+type: Request
+parentId: fld_2991d77d74534c309ed8f6e9b9767aad
+modified: 1661270553390
+created: 1661270553390
+url: "{{url}}/v1/city/list?pageSize=10&pageNumber=1&sortBy=cityName&sortType=as\
+  c&searchBy"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

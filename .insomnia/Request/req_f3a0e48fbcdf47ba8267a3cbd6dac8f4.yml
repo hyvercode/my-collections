@@ -1,0 +1,36 @@
+_id: req_f3a0e48fbcdf47ba8267a3cbd6dac8f4
+type: Request
+parentId: fld_5bb44ad57aaf4612a03be470c84d8ef3
+modified: 1661270552940
+created: 1661270552940
+url: "{{url}}/v1/category/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "categoryName":"Snack" ,
+      "groupId": "0c93a913-4f70-47c6-a83c-6cc6b1ff9855",
+      "outletId": "{{outletId}}",
+      "remark": "Food Snack"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

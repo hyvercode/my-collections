@@ -1,0 +1,32 @@
+_id: req_1293e5ea7cb54ae18cf4f1657fc0f2c5
+type: Request
+parentId: fld_4675b26d727d43e5ad2355477c746faf
+modified: 1661270553456
+created: 1661270553456
+url: "{{url}}/v1/bank/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "bankId": "008",
+      "bankImageLink": "",
+      "bankName": "Mandiri",
+      "countryCode": "IDN"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553456
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

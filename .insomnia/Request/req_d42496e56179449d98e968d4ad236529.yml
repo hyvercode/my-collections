@@ -1,0 +1,33 @@
+_id: req_d42496e56179449d98e968d4ad236529
+type: Request
+parentId: fld_81d07975d0fb4ec5a3863b5c1c37b2ec
+modified: 1661959444740
+created: 1661270553468
+url: "{{url}}/v1/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "password": "Admin@123!",
+      "username": "admin@admin.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5989014344bc4ff48d27613b3a39d66b
+  - name: Accept
+    value: application/json
+    id: pair_8a12d0bb093342b0920e7d19f2d6ce1b
+authentication: {}
+metaSortKey: -1661270553468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

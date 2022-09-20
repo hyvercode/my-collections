@@ -1,9 +1,9 @@
 _id: req_a321e368c5f341d8bf5db1b92b61d1b8
 type: Request
 parentId: fld_0412ac5b0e2d48e59d7909c131e798c2
-modified: 1660725400090
+modified: 1663683979518
 created: 1660725400090
-url: "{{ _['url-8888'] }}/products"
+url: "{{ _['url-spring-days'] }}/products"
 name: All
 description: ""
 method: GET
@@ -15,7 +15,16 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_3e3a7fe0fe55436497d015f9f2172468
-authentication: {}
+  - id: pair_09ee313dfee640139e6a82ff4e3a82d0
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdWQiOiJiZmktdG1zLWJhY2tvZmZpY2UiLCJzdWIiOiJwYXRyaWNrIiwicm9sZXMiOlsiQURNSU4iXSwiaXNzIjoiTVlfTE9DQUxfTUFDSElORSIsImV4cCI6MTY2NjI3NTkzNiwiaWF0IjoxNjYzNjgzOTM2LCJhdXRob3JpdGllcyI6WyJBRE1JTiJdfQ.QHDY_fe8CWNUohdB8b_8zJQE9SsP61fbCdF4gDFqg1mIeBxNXtx6lJiwbVvkWnMz6CRsazOKkqHMMYkH618xnw
+    description: ""
+authentication:
+  type: bearer
+  token: eyJraWQiOiJJTlRFUk5BTF9LRVkiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIkMmEkMTAkY1RVRXJ4UXFZVnlVMnFtUUdJa3RwdXA1Y2hMRWRoRDJ6cHpORXlZcW14ckhISmJTTkRPRy4iLCJyb2xlcyI6WyJBRE1JTiIsIkNSRUFUT1IiLCJVU0VSIl0sInNjb3BlIjoiTE9HSU4iLCJpc3MiOiJNWV9MT0NBTF9NQUNISU5FIiwiZXhwIjoxNjY0NTUyMjE4LCJ1c2VySWQiOiIxIiwiZGV2aWNlSWQiOiIxIiwiU1lTVEVNX1NFUlZJQ0UiOiJTZXJ2aWNlIGJmaS10bXMtYmFja29mZmljZSIsImlhdCI6MTY2MTk2MDIxOCwianRpIjoiM2ZkYzcxZDctMmI4Ny00ZjEwLWE2NGItNThjZGIwZDUwM2U2IiwiZW1haWwiOiJwYXRyaWNrQG1haWwuY29tIn0.IeUxamjTrmAAGMmz8S6z_d6GwKMBwMXRbtqzA186J3ON6U8yvRpqESyVtsM2NQolqAZz7RrLhSH5_PueZbUngQ
+  prefix: Bearer
+  disabled: true
 metaSortKey: -1660663744686
 isPrivate: false
 settingStoreCookies: true

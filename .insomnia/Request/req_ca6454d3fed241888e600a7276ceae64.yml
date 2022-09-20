@@ -1,0 +1,35 @@
+_id: req_ca6454d3fed241888e600a7276ceae64
+type: Request
+parentId: fld_e3be8f17d89c405394bc0bc8dccec153
+modified: 1661270552876
+created: 1661270552876
+url: "{{url}}/v1/type/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "typeName": "Food",
+      "outletId": "{{outletId}}",
+      "remark": "Food"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

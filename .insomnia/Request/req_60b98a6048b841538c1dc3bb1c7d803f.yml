@@ -1,0 +1,38 @@
+_id: req_60b98a6048b841538c1dc3bb1c7d803f
+type: Request
+parentId: fld_c57eefa0a133412bafcb953b8db7556a
+modified: 1661270651634
+created: 1661270552638
+url: "{{url}}/v1/insurance/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "insuranceName": "BPJS",
+      "outletId": "{{outletId}}",
+      "remark": "BPJS Kesehatan"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_14704c778c6a402a967473673093e7e7
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+    id: pair_a660b1fb8fdf4ec7894b283260a11b3a
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+    id: pair_22c009d1c6234228af966852c991a76c
+authentication: {}
+metaSortKey: -1661270552638
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_d906496f7c5e47cf8c55ea59673c06e0
+type: Request
+parentId: fld_0bf46cc7833a423386c8b430842c5a13
+modified: 1663683971615
+created: 1661441647289
+url: "{{ _['url-spring-days'] }}/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "patrick",
+      "password": "patrick"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3e83d3a542d54657bcb75bdeccdcd902
+authentication: {}
+metaSortKey: -1661441647289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

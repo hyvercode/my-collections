@@ -1,9 +1,9 @@
 _id: req_d19d803d05134636ab58a447d5994df5
 type: Request
 parentId: fld_427778b1884b4608afd023e0943b1dab
-modified: 1660726292968
+modified: 1661956019941
 created: 1660667384929
-url: "{{ _['url-8888'] }}/products"
+url: "{{ _['url-spring-days'] }}/products"
 name: Create
 description: ""
 method: POST
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"sku":"B001",
-    	"productName":"iPhone 7",
+    	"sku":"B005",
+    	"productName":"iPhone XR",
     	"price":"22500000",
     	"stock":100,
-    	"productCategoryId":"4028e45e82aafbad0182aafbcd200000",
+    	"productCategoryId":"4028e45e82ef871b0182ef8e3e430003",
     	"isActive":true
     }
 parameters: []
@@ -23,6 +23,11 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_3e3a7fe0fe55436497d015f9f2172468
+  - id: pair_f66c8f6026104db889193daad2efbd76
+    name: Authorization
+    value: Bearer
+      eyJraWQiOiJJTlRFUk5BTF9LRVkiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIkMmEkMTAkY1RVRXJ4UXFZVnlVMnFtUUdJa3RwdXA1Y2hMRWRoRDJ6cHpORXlZcW14ckhISmJTTkRPRy4iLCJyb2xlcyI6WyJBRE1JTiIsIkNSRUFUT1IiLCJVU0VSIl0sInNjb3BlIjoiW0xqYXZhLmxhbmcuU3RyaW5nO0AxMzUwZWIxNyIsImlzcyI6Ik1ZX0xPQ0FMX01BQ0hJTkUiLCJleHAiOjE2NjQ0NjgwMDcsInVzZXJJZCI6IjEiLCJkZXZpY2VJZCI6IjEiLCJTWVNURU1fU0VSVklDRSI6IlNlcnZpY2UgYmZpLXRtcy1iYWNrb2ZmaWNlIiwiaWF0IjoxNjYxODc2MDA3LCJqdGkiOiJkNDZjYmY5Ni1kZGMxLTQ0NDMtOTViNy0zMGZjYTc4MzIxNDUiLCJlbWFpbCI6InBhdHJpY2tAbWFpbC5jb20ifQ.dFaGtusSmsz1ekcGTiLxiLcr7xzzZqZFsEQEI7s90jB6EeKpRpZuAO4EcK8qQHN_9diydZM2HvrZI1_DOwGo9w
+    description: ""
 authentication: {}
 metaSortKey: -1660663744636
 isPrivate: false

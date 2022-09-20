@@ -1,0 +1,23 @@
+_id: req_31708971daed421bb9362c2e49cc6311
+type: Request
+parentId: fld_080ba4275cc44d16898b4e505d7461ec
+modified: 1661270553047
+created: 1661270553047
+url: "{{url}}/v1/profile/outlet?outletId=055da87e-64d5-4253-921c-eb0e8159d3c5"
+name: OutletProfile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661270553047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

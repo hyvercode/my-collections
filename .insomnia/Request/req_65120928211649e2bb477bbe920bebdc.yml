@@ -1,0 +1,53 @@
+_id: req_65120928211649e2bb477bbe920bebdc
+type: Request
+parentId: fld_0658ce62b7994791b265b1d3a9ad2caf
+modified: 1661270553086
+created: 1661270553086
+url: "{{url}}/v1/branch/update?branchId=e181c37e-75e7-4810-842b-4e9b3b45e0a0"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "outletId":"055da87e-64d5-4253-921c-eb0e8159d3c5",
+      "active": "Y",
+      "address": "Kp Wareng Desa Sukamulya Bandung Barat",
+      "cityId": "0",
+      "contactNumber": "Alawi",
+      "contactPerson": "087885876037",
+      "countryId": "IDN",
+      "currencyId": "IDR",
+      "districtId": "0",
+      "email": "alfazid.alawi@gmail.com",
+      "faxNumber": "0",
+      "image": "0",
+      "letterOfBusinessPermit": "1234567890",
+      "branchName": "Alfaz Alawi Strore",
+      "phoneNumber": "0210987651",
+      "phoneNumber2": "0213456785",
+      "postcode": 15523,
+      "provinceId": "0",
+      "subDistrictId": "0",
+      "taxRegistrationNumber": "0",
+      "villageId": "0",
+      "website": "www.alfaz.id"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270553086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

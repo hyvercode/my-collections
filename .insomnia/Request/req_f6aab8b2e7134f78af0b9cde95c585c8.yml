@@ -1,0 +1,35 @@
+_id: req_f6aab8b2e7134f78af0b9cde95c585c8
+type: Request
+parentId: fld_4540978ca40143bb96aca9f78497e783
+modified: 1661270552902
+created: 1661270552902
+url: "{{url}}/v1/brand/add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "active": "Y",
+      "brandName": "Unilever",
+      "outletId": "{{outletId}}",
+      "remark": "Unilever Food"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Outlet-ID
+    value: "{{outletId}}"
+  - name: X-Employee-ID
+    value: "{{employeeId}}"
+authentication: {}
+metaSortKey: -1661270552902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
